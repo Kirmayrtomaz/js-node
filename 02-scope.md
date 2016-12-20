@@ -167,3 +167,33 @@ console.log(cachorro);
 
 ```
 
+
+```
+
+var velocidade = 2;
+
+function animal(pata){
+    var patas = pata;
+    var velocidade = 5;
+
+    
+    return result(patas);
+
+
+}
+
+
+function result(patas){
+    console.log(velocidade,patas)
+
+    return velocidade * patas
+
+}
+
+
+cachorro = animal(4);
+
+console.log(cachorro);
+
+
+```
