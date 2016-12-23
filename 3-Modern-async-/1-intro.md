@@ -82,6 +82,6 @@ function teste(){
 Promises
 A promises possui três estados
 
-* Sucess
-* Error
+* Succeeded
+* Failed
 * Pending

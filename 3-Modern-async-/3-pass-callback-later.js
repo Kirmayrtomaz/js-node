@@ -2,7 +2,7 @@ const delayms = 1;
 
 function getCurrentCity(callback) {
   setTimeout(function () {
-   
+
     const city = "New York, NY";
     callback(null, city);
 
@@ -43,5 +43,5 @@ test("fetchCurrentCity pass the callbacks later on", function (done) {
   operation.setCallbacks(
     result => done(),
     error => done(error));
-  
+
 });

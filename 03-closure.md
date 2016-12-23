@@ -22,7 +22,7 @@ function add(a,b){
     }
 }
 
-var teste = add(3,8); 
+var teste = add(3,8);
 teste.inc() //incrementa
 
 console.log(teste.inc());
@@ -35,5 +35,3 @@ Nesse exemplo acima estamos vendo um exemplo de cloususe, em que ao chamar a fun
 
 
 Um dos erros comuns que acontece normalmente é quando se tenta usar clousure em determinadas situações que não podem ocorrer
-
-
